@@ -13,11 +13,16 @@ a{
 }
 /* header layout */
 header{
+  background-color: #fff;
   display:flex;
   justify-content: space-between;
   padding: 20px 30px;
   height:100px;
   box-shadow: 0px 0 10px 1px #88888838;
+  position:fixed;
+  right:0;
+  top:0;
+  left:0;
 }
   /* posizionamento menu principale */
   .left-header, .right-header, .left-menu > ul, .right-menu > ul,
@@ -82,3 +87,9 @@ header{
   /* /layout sub menu */
 
 /* /header layout */
+
+/* main */
+  main{
+    margin-top: 150px;
+  }
+/* /main */
