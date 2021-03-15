@@ -16,6 +16,8 @@ header{
   display:flex;
   justify-content: space-between;
   padding: 20px 30px;
+  height:100px;
+  box-shadow: 0px 0 10px 1px #88888838;
 }
   /* posizionamento menu principale */
   .left-header, .right-header, .left-header ul, .right-header ul{
@@ -53,5 +55,5 @@ header{
     background-color: #000;
   }
   /* /layout login */
-  
+
 /* /header layout */
