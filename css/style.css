@@ -49,6 +49,16 @@ header{
   }
   /* /layout logo */
 
+  /* layout right-menu and left-menu*/
+
+  .right-menu button{
+    background-color:transparent;
+    border:none;
+    color: grey;
+    font-size:16px;
+  }
+  /* /layout right-menu */
+
   /* layout login */
   .login ul li:first-of-type a,
   .login ul li:last-of-type a{
@@ -78,11 +88,14 @@ header{
     padding: 0 10px;
     margin-top: 15px;
     box-shadow: 0 0 10px #F2F2F2;
+    display:none;
   }
   .sub-menu li {
     padding:13px 0;
   }
-
+  .active{
+    display:inline-block;
+  }
 
   /* /layout sub menu */
 
