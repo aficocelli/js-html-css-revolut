@@ -5,7 +5,7 @@ $(function( ){
   // al click sui link del right menu
   $(".show-menu").click(function() {
 
-    var showBtn = $(".show-menu");
+    var showBtn = $(".show-menu").not(this);
 
     showBtn.next().removeClass("active");
 
@@ -30,6 +30,22 @@ $(function( ){
 
   });
 
+
+  $(".hamburger-menu").click(function(){
+
+    $("header").addClass("display-none");
+
+    $(".responsive-menu").show();
+
+  });
+
+  $(".close-menu").click(function(){
+
+    $("header").removeClass("display-none");
+
+    $(".responsive-menu").hide();
+
+  });
 
 
 
