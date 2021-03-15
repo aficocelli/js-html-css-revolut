@@ -1,5 +1,57 @@
+/* MIX */
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
+body{
+  font-family: arial;
+}
+a{
+  text-decoration: none;
+  color:grey;
+}
+/* header layout */
+header{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+  /* posizionamento menu principale */
+  .left-header, .right-header, .left-header ul, .right-header ul{
+    display:flex;
+    align-items: center;
+  }
+  /* /posizionamento menu principale */
+
+  /* layout li */
+  header ul li{
+    list-style-type: none;
+    padding:15px;
+  }
+  /* /layout li */
+
+  /* layout logo */
+  .logo{
+    padding-right: 25px;
+  }
+  /* /layout logo */
+
+  /* layout login */
+  .login ul li:first-of-type a,
+  .login ul li:last-of-type a{
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+  .login ul li:first-of-type a{
+    color:#000;
+    background-color:#EBEBEB;
+  }
+  .login ul li:last-of-type a{
+    color:#fff;
+    background-color: #000;
+  }
+  /* /layout login */
+  
+/* /header layout */
