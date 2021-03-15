@@ -14,6 +14,21 @@ $(function( ){
 
   });
 
+  $(".show-menu").mouseenter(function(){
+
+    $(this).next().addClass("active");
+
+    $(this).addClass("black");
+
+  });
+
+  $(".show-menu").mouseleave(function(){
+
+    $(this).next().removeClass("active");
+
+    $(this).removeClass("black");
+
+  });
 
 
 
