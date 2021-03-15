@@ -20,16 +20,21 @@ header{
   box-shadow: 0px 0 10px 1px #88888838;
 }
   /* posizionamento menu principale */
-  .left-header, .right-header, .left-header ul, .right-header ul{
+  .left-header, .right-header, .left-menu > ul, .right-menu > ul,
+  .login ul{
     display:flex;
     align-items: center;
   }
+  /* .left-menu > ul, .right-menu > ul{
+    position:relative;
+  } */
   /* /posizionamento menu principale */
 
   /* layout li */
   header ul li{
     list-style-type: none;
     padding:15px;
+    position:relative;
   }
   /* /layout li */
 
@@ -55,5 +60,25 @@ header{
     background-color: #000;
   }
   /* /layout login */
+
+  /* layout sub menu */
+  .sub-menu{
+    position:absolute;
+    background-color: #fff;
+    top:35px;
+    left:6px;
+    padding: 10px 0;
+    width: 150px;
+    border-radius:10px;
+    padding: 0 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #F2F2F2;
+  }
+  .sub-menu li {
+    padding:13px 0;
+  }
+
+
+  /* /layout sub menu */
 
 /* /header layout */
